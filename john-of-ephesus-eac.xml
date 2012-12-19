@@ -1,10 +1,8 @@
 <eac-cpf xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
   <control>
-    <recordId>RCR00751</recordId>
-    <maintenanceStatus>new</maintenanceStatus>
+    <recordId>SRP74</recordId>
     <maintenanceAgency>
-      <agencyCode>MMeT-C</agencyCode>
-      <agencyName>Tufts University Digital Collections and Archives</agencyName>
+      <agencyName>syriaca.org</agencyName>
     </maintenanceAgency>
     <languageDeclaration>
       <language languageCode="eng">English</language>
@@ -12,28 +10,48 @@
     </languageDeclaration>
     <sources>
       <source>
-        <sourceEntry>The Forest Hills Educational Trust, "Historic Forest Hills Cemetary: The Soul of Milton Hill," Forest Hills Cemetery. Boston, MA. October 30, 2009. http://foresthillstrust.blogspot.com/2009/10/soul-of-milton-hill.html (accessed June 8, 2011).</sourceEntry>
+        <sourceEntry>The Gorgias Encyclopedic Dictionary of Syriac Heritage, entry 500.</sourceEntry>
+      </source>
+      <source>
+        <sourceEntry>Barsoum, entry 69, pg. 304.</sourceEntry>
       </source>
     </sources>
   </control>
   <cpfDescription>
     <identity>
       <entityType>person</entityType>
-      <nameEntry>
-        <part>Lufkin, Richard H.</part>
-        <authorizedForm>local</authorizedForm>
-      </nameEntry>
+      <nameEntryParallel>
+        <nameEntry @scriptCode="Latn" @transliteration="GEDSH">
+          <part>Yuḥanon of Ephesus</part>
+        </nameEntry>
+        <nameEntry @scriptCode="Syrc">
+          <part>ܝܘܚܢܢ ܕܐܦܣܘܣ</part>
+          <preferredForm>syriaca.org</preferredForm>
+        </nameEntry>
+        <authorizedForm>syriaca.org</authorizedForm>
+      </nameEntryParallel>
+      <nameEntryParallel>
+        <nameEntry @scriptCode="Arab" @xml:lang="ara">
+          <part>يوحنا الافسسي</part>
+        </nameEntry>
+        <nameEntry @scriptCode="Syrc" @xml:lang="syc">
+          <part>ܝܘܚܢܢ ܕܐܦܣܘܣ</part>
+          <preferredForm>syriaca.org</preferredForm>
+        </nameEntry>
+        <nameEntry @scriptCode="Latn" @xml:lang="eng" @transliteration="Barsoum-Anglicized">
+          <part>John of Ephesus</part>
+        </nameEntry>
+        <alternativeForm>syriaca.org</alternativeForm>
+      </nameEntryParallel>
     </identity>
     <description>
       <existDates>
         <dateRange>
-          <fromDate>1851</fromDate>
-          <toDate>1922</toDate>
+          <fromDate>507</fromDate>
+          <toDate>586</toDate>
         </dateRange>
       </existDates>
-      <biogHist>
-        <abstract><p>Richard H. Lufkin was a shoe machine engineer who has a grantmaking foundation named in his honor. His family's philanthropy helped build the Lufkin Engineering Library at Tufts University's School of Engineering.</p></abstract><p>Richard H. Lufkin (1851-1922) was an engineer who patented the vamp folding machine, for shoe manufacturers. Lufkin was recognized for this achievement by the Massachusetts Charitable Mechanics Association. Lufkin's sister Elizabeth later started the Elizabeth A. and Richard H. Lufkin Memorial Foundation, as a trust for six engineering schools in the Boston area, including Tufts University. Tufts named its engineering library after the Lufkins after philanthropic donations to Tufts School of Engineering. The Lufkin Engineering Library was later folded into Wessell Library in fall 1996.</p>
-      </biogHist>
+      <biogHist></biogHist>
     </description>
     <relations>
       <cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:role="http://dca.lib.tufts.edu/ontology/rcr#corporateBody" xlink:arcrole="http://dca.lib.tufts.edu/ontology/rcr#isAssociatedWith">
