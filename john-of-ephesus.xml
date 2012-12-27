@@ -53,14 +53,5 @@
       </existDates>
       <biogHist></biogHist>
     </description>
-    <relations>
-      <cpfRelation cpfRelationType="associative" xlink:type="simple" xlink:role="http://dca.lib.tufts.edu/ontology/rcr#corporateBody" xlink:arcrole="http://dca.lib.tufts.edu/ontology/rcr#isAssociatedWith">
-        <relationEntry xml:id="RCR00750">Lufkin Engineering Library</relationEntry>
-        <dateRange>
-          <fromDate standardDate="1928">1928</fromDate>
-          <toDate standardDate="1996">1996</toDate>
-        </dateRange>
-      </cpfRelation>
-    </relations>
   </cpfDescription>
 </eac-cpf>
