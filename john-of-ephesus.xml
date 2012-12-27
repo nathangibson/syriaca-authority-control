@@ -21,24 +21,24 @@
     <identity>
       <entityType>person</entityType>
       <nameEntryParallel>
-        <nameEntry @scriptCode="Latn" @transliteration="GEDSH">
+        <nameEntry scriptCode="Latn" transliteration="GEDSH">
           <part>Yuḥanon of Ephesus</part>
         </nameEntry>
-        <nameEntry @scriptCode="Syrc">
+        <nameEntry scriptCode="Syrc">
           <part>ܝܘܚܢܢ ܕܐܦܣܘܣ</part>
           <preferredForm>syriaca.org</preferredForm>
         </nameEntry>
         <authorizedForm>syriaca.org</authorizedForm>
       </nameEntryParallel>
       <nameEntryParallel>
-        <nameEntry @scriptCode="Arab" @xml:lang="ara">
+        <nameEntry scriptCode="Arab" xml:lang="ara">
           <part>يوحنا الافسسي</part>
         </nameEntry>
-        <nameEntry @scriptCode="Syrc" @xml:lang="syc">
+        <nameEntry scriptCode="Syrc" xml:lang="syc">
           <part>ܝܘܚܢܢ ܕܐܦܣܘܣ</part>
           <preferredForm>syriaca.org</preferredForm>
         </nameEntry>
-        <nameEntry @scriptCode="Latn" @xml:lang="eng" @transliteration="Barsoum-Anglicized">
+        <nameEntry scriptCode="Latn" xml:lang="eng" transliteration="Barsoum-Anglicized">
           <part>John of Ephesus</part>
         </nameEntry>
         <alternativeForm>syriaca.org</alternativeForm>
