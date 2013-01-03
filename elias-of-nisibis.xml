@@ -40,12 +40,7 @@
 				<agentType>human</agentType>
 				<agent>Nathan P. Gibson</agent>
 			</maintenanceEvent>
-			<maintenanceEvent>
-				<eventType>revised</eventType>
-				<eventDateTime standardDateTime="2013-01-03T17:12:46.118Z"/>
-				<agentType>human</agentType>
-				<agent>Nathan P. Gibson</agent>
-			</maintenanceEvent>
+			
 		</maintenanceHistory>
 		<sources>
 			<source>
